@@ -1,5 +1,7 @@
 baseURL = 'https://tyfr.org/'
 languageCode = 'en-us'
+defaultContentLanguage = "en-gb"
+enableEmoji = true
 title = 'Tymoteusz Frankiewicz - The homebase'
 
 [module]
@@ -22,11 +24,6 @@ title = 'Tymoteusz Frankiewicz - The homebase'
     url = '/'
     weight = 10
   [[Languages.en-gb.menu.main]]
-    pageRef="posts"
-    name = 'Posts'
-    url = '/posts/'
-    weight = 20
-  [[Languages.en-gb.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
@@ -35,9 +32,6 @@ title = 'Tymoteusz Frankiewicz - The homebase'
 [Languages.en-gb.params]
   sitename = "Tymoteusz Frankiewicz - The homebase"
   defaultColor = "auto" # set color mode: dark, light, auto
-  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
-  # the default value is set to 'auto'.
-  # You can take a look at layouts/index.html for more information.
   description = "Tymoteusz Frankiewicz, Software Engineer"
   mainSections = ['/']
   toc = true # set to false to disable table of contents 'globally'
@@ -55,7 +49,7 @@ title = 'Tymoteusz Frankiewicz - The homebase'
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Tymoteusz Frankiewicz, Software Engineer"
   name = "Tymoteusz Frankiewicz"
-  description = "Fullstack Software Engineer with experise in Python, Java and Javascript web developemnt. Proud member of Infoguard DevOps team."
+  description = "Fullstack Software Engineer with experise in Python, Java and Javascript web developement. Proud member of Infoguard DevOps team."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]

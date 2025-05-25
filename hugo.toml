@@ -1,6 +1,6 @@
 baseURL = 'https://tyfr.org/'
 languageCode = 'en-us'
-defaultContentLanguage = "en-gb"
+defaultContentLanguage = "en-us"
 enableEmoji = true
 title = 'Tymoteusz Frankiewicz - The homebase'
 
@@ -9,27 +9,27 @@ title = 'Tymoteusz Frankiewicz - The homebase'
     path = "github.com/hugo-sid/hugo-blog-awesome"
 
 ############################## English language ################################
-[Languages.en-gb]
+[Languages.en-us]
   languageName = "English"
-  languageCode = "en-gb"
+  languageCode = "en-us"
   contentDir = "content/en"
   weight = 1
 
-  [Languages.en-gb.menu]
-  [[Languages.en-gb.menu.main]]
+  [Languages.en-us.menu]
+  [[Languages.en-us.menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Home'
     url = '/'
     weight = 10
-  [[Languages.en-gb.menu.main]]
+  [[Languages.en-us.menu.main]]
     pageRef="about"
     name = 'About'
-    url = '/about/'
-    weight = 30
+    url = '/pages/about/'
+    weight = 20
 
-[Languages.en-gb.params]
+[Languages.en-us.params]
   sitename = "Tymoteusz Frankiewicz - The homebase"
   defaultColor = "auto" # set color mode: dark, light, auto
   description = "Tymoteusz Frankiewicz, Software Engineer"
@@ -38,24 +38,78 @@ title = 'Tymoteusz Frankiewicz - The homebase'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
-  # See https://gohugo.io/functions/time/format/ for available date formats.
-  rssFeedDescription = "summary" # available options: 1) summary 2) full
-  # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
-  # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
-  # By default (or if nothing is specified), summary is used.
 
-[Languages.en-gb.params.author]
-  avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
-  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+[Languages.en-us.params.author]
+  avatar = "avatar.png"
   intro = "Tymoteusz Frankiewicz, Software Engineer"
   name = "Tymoteusz Frankiewicz"
   description = "Fullstack Software Engineer with experise in Python, Java and Javascript web developement. Proud member of Infoguard DevOps team."
 
 # Allow to override webmanifest options
-[Languages.en-gb.params.webmanifest]
+[Languages.en-us.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
   short_name = "sitename" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
   display = "standalone"
+
+############################## German language ################################
+  languageName = "German"
+  languageCode = "de-de"
+  contentDir = "content/de"
+  weight = 1
+
+  [Languages.de-de.menu]
+  [[Languages.de-de.menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Startseite'
+    url = '/'
+    weight = 10
+  [[Languages.de-de.menu.main]]
+    pageRef="about"
+    name = 'Über mich'
+    url = '/pages/about/'
+    weight = 20
+  
+  [Languages.de-de.params]
+    sitename = "Tymoteusz Frankiewicz - The homebase"
+    defaultColor = "auto" # set color mode: dark, light, auto
+    description = "Tymoteusz Frankiewicz, Software Enginieur"
+    mainSections = ['/']
+    toc = true # set to false to disable table of contents 'globally'
+    tocOpen = false # set to true to open table of contents by default
+    goToTop = true # set to false to disable 'go to top' button
+    dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
+
+
+  [Languages.de-de.params.author]
+    avatar = "avatar.png"
+    intro = "Tymoteusz Frankiewicz, Software Enginieur"
+    name = "Tymoteusz Frankiewicz"
+    description = "Fullstack Software Engineer mit Expertise in Python, Java and Javascript Webentwicklung. Stolzer Mitglied des Infoguard DevOps Teams."
+
+  # Allow to override webmanifest options
+  [Languages.de-de.params.webmanifest]
+    name = "sitename" # will use "params.sitename" or "title" by default
+    short_name = "sitename" # same as name
+    start_url = "/" # will use homepage url by default
+    theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+    background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+    display = "standalone"
+
+###################################################################
+
+# Allow to override `browserconfig.xml` params (configuration for windows embedded browsers)
+[params.browserconfig]
+  TileColor = "#2d89ef" # default windows 10 blue tile color
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/hergerr"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/tymoteusz-frankiewicz"

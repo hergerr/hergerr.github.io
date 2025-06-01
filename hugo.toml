@@ -4,9 +4,8 @@ defaultContentLanguage = "en-us"
 enableEmoji = true
 title = 'Tymoteusz Frankiewicz - The homebase'
 
-[module]
-  [[module.imports]]
-    path = "github.com/hugo-sid/hugo-blog-awesome"
+# traditional way: theme component resides in directory 'themes'
+theme = "hugo-blog-template"
 
 ############################## English language ################################
 [Languages.en-us]
@@ -43,7 +42,7 @@ title = 'Tymoteusz Frankiewicz - The homebase'
   avatar = "avatar.png"
   intro = "Tymoteusz Frankiewicz, Software Engineer"
   name = "Tymoteusz Frankiewicz"
-  description = "Fullstack Software Engineer with experise in Python, Java and Javascript web developement. Proud member of Infoguard DevOps team."
+  description = "Fullstack Software Engineer with experise in Python, Java and Javascript web developement. A proud member of Infoguard DevOps team."
 
 # Allow to override webmanifest options
 [Languages.en-us.params.webmanifest]
@@ -55,44 +54,45 @@ title = 'Tymoteusz Frankiewicz - The homebase'
   display = "standalone"
 
 ############################## German language ################################
+[Languages.de-ch]
   languageName = "German"
-  languageCode = "de-de"
+  languageCode = "de-ch"
   contentDir = "content/de"
   weight = 1
 
-  [Languages.de-de.menu]
-  [[Languages.de-de.menu.main]]
+  [Languages.de-ch.menu]
+  [[Languages.de-ch.menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Startseite'
     url = '/'
     weight = 10
-  [[Languages.de-de.menu.main]]
+  [[Languages.de-ch.menu.main]]
     pageRef="about"
     name = 'Über mich'
     url = '/pages/about/'
     weight = 20
   
-  [Languages.de-de.params]
-    sitename = "Tymoteusz Frankiewicz - The homebase"
-    defaultColor = "auto" # set color mode: dark, light, auto
-    description = "Tymoteusz Frankiewicz, Software Enginieur"
-    mainSections = ['/']
-    toc = true # set to false to disable table of contents 'globally'
-    tocOpen = false # set to true to open table of contents by default
-    goToTop = true # set to false to disable 'go to top' button
-    dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
+[Languages.de-ch.params]
+  sitename = "Tymoteusz Frankiewicz - The homebase"
+  defaultColor = "auto" # set color mode: dark, light, auto
+  description = "Tymoteusz Frankiewicz, Software Enginieur"
+  mainSections = ['/']
+  toc = true # set to false to disable table of contents 'globally'
+  tocOpen = false # set to true to open table of contents by default
+  goToTop = true # set to false to disable 'go to top' button
+  dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
 
 
-  [Languages.de-de.params.author]
-    avatar = "avatar.png"
-    intro = "Tymoteusz Frankiewicz, Software Enginieur"
-    name = "Tymoteusz Frankiewicz"
-    description = "Fullstack Software Engineer mit Expertise in Python, Java and Javascript Webentwicklung. Stolzer Mitglied des Infoguard DevOps Teams."
+[Languages.de-ch.params.author]
+  avatar = "avatar.png"
+  intro = "Tymoteusz Frankiewicz, Software Enginieur"
+  name = "Tymoteusz Frankiewicz"
+  description = "Fullstack Software Engineer mit Expertise in Python, Java und Javascript Webentwicklung. Stolzer Mitglied des Infoguard DevOps Teams."
 
   # Allow to override webmanifest options
-  [Languages.de-de.params.webmanifest]
+  [Languages.de-ch.params.webmanifest]
     name = "sitename" # will use "params.sitename" or "title" by default
     short_name = "sitename" # same as name
     start_url = "/" # will use homepage url by default

@@ -12,4 +12,4 @@ Im Rahmen des DevOps Teams trage ich zur Wartung und Entwicklung einer Incident-
 
 - Entwicklung und Wartung von Microservices in asynchroner Architektur, geschrieben in Django und Spring, mit Kafka als Kommunikationskanal. **Entwerfen und Überprüfen** von Strategien für die Bereitstellung neuer Funktionen,
 - **Entwicklung und Ausführung von Strategien** für Migration und Integration von Services und weiteren Releases der Platform
-- Erstellung von Client Seite in Microfrontends Architektur (React, CoreUI). Ich habe deutlichen Beitrag zu Wiederverwendbarkeit von existierenden Teilen geleistet und habe **die komplexesten Teile** der Frontend implementiert.
+- Erstellung von Client-Seite in einer Microfrontends Architektur (React, CoreUI). Ich habe deutlichen Beitrag zur Wiederverwendbarkeit von existierenden Teilen geleistet und habe **die komplexesten Teile** der Frontend implementiert.

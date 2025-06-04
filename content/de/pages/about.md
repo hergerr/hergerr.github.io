@@ -19,4 +19,7 @@ Am Horizont erscheint stets ein weiterer Punkt, der noch verlockender ist als de
 Die Motivation hinter diesem Blog ist es, meine Reise zu teilen, während ich auf die nächsten Meilensteine in meinem Leben hinarbeite. Genauer gesagt:
 
 1. Ich bin Softwareentwickler. Obwohl ich bereits viel praktische Erfahrung gesammelt habe, gibt es nach wie vor zahlreiche Möglichkeiten, in diesem Beruf zu wachsen.
-Meine Interessen umfassen unter anderem Entwurfsmuster, Algorithmen, Datenstrukturen und viele Tools, die die Entwicklung moderner Anwendungen unterstützen.
+Meine Interessen umfassen unter anderem Entwurfsmuster, Algorithmen, Datenstrukturen und Tools, die die Entwicklung moderner Anwendungen unterstützen.
+2. Anfangs 2020 begann ich am Deutschunterricht teilzunehmen, zunächst auf einem relativ schwachen B1-Niveau. Dank langfriestiger **Konsequenz**, konnte ich relativ schnell Materialien außerhalb der Kursbücher anzuwenden, was mich schließlich zu einem DAAD Stipendium an der Ludwig-Maximilians-Universität München und später zum C1-Niveau führte. Durch diesen Blog, will ich das Schreiben üben und meinen Wortschatz um fortgeschrittene Ausdrücke erweitern.
+
+In meiner Freizeit bin ich sehr gerne in den Bergen unterwegs – sowohl zu Fuß als auch mit meinem Rennrad. Ab und zu werde ich vielleicht auch ein paar Worte darüber teilen.

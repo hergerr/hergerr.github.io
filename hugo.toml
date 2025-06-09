@@ -27,7 +27,7 @@ theme = "hugo-blog-template"
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="posts"
     name = 'Posts'
-    url = '/posts/'
+    url = '/posts'
     weight = 20
   [[Languages.en-us.menu.main]]
     pageRef="about"
@@ -44,7 +44,7 @@ theme = "hugo-blog-template"
   sitename = "Tymoteusz Frankiewicz - The homebase"
   defaultColor = "auto" # set color mode: dark, light, auto
   description = "Tymoteusz Frankiewicz, Software Engineer"
-  mainSections = ['/']
+  mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
@@ -102,7 +102,7 @@ theme = "hugo-blog-template"
   sitename = "Tymoteusz Frankiewicz - The homebase"
   defaultColor = "auto" # set color mode: dark, light, auto
   description = "Tymoteusz Frankiewicz, Software Enginieur"
-  mainSections = ['/']
+  mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button

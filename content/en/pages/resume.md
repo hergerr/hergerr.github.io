@@ -26,8 +26,8 @@ I was a part of a software agency that developed both its own and custom product
 
 Within Research & Development team I was working on a suite of products powering company's IPTV services:
 
-- provided a more **maintainable** and **reliable** solution t for recording and rewinding TV channel transmissions (Flask, ffmpeg).
-- Collaborated with the marketing team to build a new customer portal with custom React components,(React).
+- provided a more **maintainable** and **reliable** solution for recording and rewinding TV channel transmissions (Flask, ffmpeg).
+- Collaborated with the marketing team to build a new customer portal with custom React components.
 - **designed, implemented and deployed** [k.pl](https://k.pl) - a website offering services of a new branch of the company - data center.
 
 ### Nokia
@@ -42,11 +42,11 @@ As a summer trainee, I had the opportunity to take on a variety of challenges an
 
 During my studies, I implemented websites on request. Together with a friend, we gathered requirements, designed, developed, and deployed the web pages. One such project was commissioned by a local dental clinic.
 
-![histmap](/website_1.png)
+![website](/website_1.png)
 
-![histmap](/website_2.png)
+![website](/website_2.png)
 
-![histmap](/website_3.png)
+![website](/website_3.png)
 
 
 ## Education
@@ -57,13 +57,13 @@ Computer Science, Master's degree Wroclaw University of Science and Technology
 
 - March 2021 – July 2022
 - Scholarship for best students
-- 5.0 - very good
+- 5.0 gradution note - very good
 
 Computer Science, Engineer's degree, Wroclaw University of Science and Technology
 
 - October 2017 – January 2021
 - Scholarship for best students
-- 5.0 - very good
+- 5.0 gradution note - very good
 
 ### Notable Projects
 
@@ -74,10 +74,10 @@ Computer Science, Engineer's degree, Wroclaw University of Science and Technolog
 - integrating leaflet.js with front-end and custom-rendered map tiles
 
 ![histmap](/histmap_1.png)
-One could see both areas (France), as well as points (Paris) indicating place of action.
+One can see both areas (France), as well as points (Paris) indicating place of action.
 
 ![histmap](/histmap_2.png)
-User could use a timeline (including autoplay function) and exclude areas from the UI.
+User can use a timeline (including autoplay function) and exclude areas from the UI.
 
 ![histmap](/histmap_3.png)
-On double click a list with publications from given radius were displayed in scrollable list.
+On double click a scrollable list with publications from given radius is displayed

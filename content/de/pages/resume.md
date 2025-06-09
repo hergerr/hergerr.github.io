@@ -37,3 +37,48 @@ Als Sommerpraktikant hatte ich die Möglichkeit, eine Vielzahl von Herausforderu
 - Entwicklung von Automatisierungsskripten (bash)
 - Umschreibung des UI eines alten Microservice von Angular zu React
 - Schreiben und Fehlerbehebung von Selenium e2e Testsuiten (python3)
+
+### Freenlance-Aktivität
+Im Laufe meines Studiums habe ich auf Anfrage Webseiten implementiert. Zusammen mit einem Freund haben wir Anforderungen gesammelt, die Seiten entworfen, entwickelt und schließlich bereitgestellt. Eines dieser Projekte wurde von einer lokalen Zahnarztpraxis in Auftrag gegeben.
+
+![website](/website_1.png)
+
+![website](/website_2.png)
+
+![website](/website_3.png)
+
+
+## Ausbildung
+
+### Zeitachse
+
+Informatik, Master-Abschluss, Technische Universität Wroclaw
+
+- März 2021 - Juni 2022
+- Stipendium für die besten Studenten
+- Abschlussnote 5.0 - sehr gut
+
+
+Informatik, Enginieur-Abschluss, Technische Universität Wroclaw
+
+- März 2021 - Juni 2022
+- Stipendium für die besten Studenten
+- Abschlussnote 5.0 - sehr gut
+
+### Bemerkenswerte Projekte
+
+##### HistMap
+
+- Visualisiertung der Handlungsorten von gegebenen (100k+) Publikationen
+- Verwendung von Vue3 und Komponentenbibliothek (Element Plus)
+- Integration von leaflet.js mit Frontend und benutzerdefinierten Kartenkacheln
+
+![histmap](/histmap_1.png)
+Man sieht sowohl Gebiete (Frankreich) als auch Punkte (Paris), die den Ort der Handlung angeben.
+
+![histmap](/histmap_2.png)
+Der Benutzer kann die Zeitachse verwenden (einschließlich Autoplay-Funktion) und Gebiete aus der UI ausschliessen
+
+![histmap](/histmap_3.png)
+Bei einem Doppelklick wird eine scrollbare Liste mit Publikationen aus dem angegebenen Umkreis angezeigt.
+

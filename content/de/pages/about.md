@@ -5,7 +5,7 @@ draft = true
 +++
 
 ## Wer bin ich?
-Ich bin  Fullstack-Softwareentwickler und arbeite derzeit für [InfoGuard](https://www.infoguard.ch) DevOps-Team in Baar Zug, Schweiz :switzerland:. In 2021 habe ich Masterstudium in Informatik an der [Wroclaw Universtiy of Science and Technology](https://pwr.edu.pl) abgeschlossen. Seitdem habe ich meine Kenntnisse in der Webentwicklung mit **Python**, **Java**, und **JavaScript**,  in der Orchestrierung und bei Deployment-Strategien mit **Kubernetes** sowie in der **IT-Sicherheit** deutlich vertieft. Ich begeistere mich für Automatisierung und GNU/Linux-Betriebssysteme. 
+Ich bin  Fullstack-Softwareentwickler und arbeite derzeit für [InfoGuard](https://www.infoguard.ch) DevOps-Team in Baar Zug, Schweiz :switzerland:. In 2021 habe ich Masterstudium in Informatik an der [Technischen Universität Wroclaw](https://pwr.edu.pl) abgeschlossen. Seitdem habe ich meine Kenntnisse in der Webentwicklung mit **Python**, **Java**, und **JavaScript**,  in der Orchestrierung und bei Deployment-Strategien mit **Kubernetes** sowie in der **IT-Sicherheit** deutlich vertieft. Ich begeistere mich für Automatisierung und GNU/Linux-Betriebssysteme. 
 
 ------
 

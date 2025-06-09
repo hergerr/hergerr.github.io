@@ -7,6 +7,10 @@ title = 'Tymoteusz Frankiewicz - The homebase'
 # traditional way: theme component resides in directory 'themes'
 theme = "hugo-blog-template"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 ############################## English language ################################
 [Languages.en-us]
   languageName = "English"

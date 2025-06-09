@@ -23,6 +23,13 @@ theme = "hugo-blog-template"
     url = '/'
     weight = 10
   [[Languages.en-us.menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[Languages.en-us.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/pages/about/'
@@ -74,15 +81,22 @@ theme = "hugo-blog-template"
     url = '/'
     weight = 10
   [[Languages.de-ch.menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="posts"
+    name = 'Beiträge'
+    url = '/posts/'
+    weight = 20
+  [[Languages.de-ch.menu.main]]
     pageRef="about"
     name = 'Über mich'
     url = '/pages/about/'
-    weight = 20
+    weight = 30
   [[Languages.de-ch.menu.main]]
     pageRef="resume"
     name = 'Résumé'
     url = '/pages/resume/'
-    weight = 30
+    weight = 40
   
 [Languages.de-ch.params]
   sitename = "Tymoteusz Frankiewicz - The homebase"

@@ -37,12 +37,12 @@ theme = "hugo-blog-awesome"
     pageRef="about"
     name = 'About'
     url = '/pages/about/'
-    weight = 20
+    weight = 30
   [[Languages.en-us.menu.main]]
     pageRef="resume"
     name = 'Résumé'
     url = '/pages/resume/'
-    weight = 30
+    weight = 40
 
 [Languages.en-us.params]
   sitename = "Tymoteusz Frankiewicz - The homebase"

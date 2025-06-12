@@ -117,7 +117,7 @@ theme = "hugo-blog-awesome"
   avatar = "avatar.png"
   intro = "Tymoteusz Frankiewicz, Software Enginieur"
   name = "Tymoteusz Frankiewicz"
-  description = "Fullstack Software Engineer mit Expertise in Python, Java und Javascript Webentwicklung. Stolzer Mitglied des Infoguard DevOps Teams."
+  description = "Fullstack Software Engineer mit Expertise in Python, Java und Javascript Webentwicklung. Stolzes Mitglied des Infoguard DevOps Teams."
 
   # Allow to override webmanifest options
   [Languages.de-ch.params.webmanifest]

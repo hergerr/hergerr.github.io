@@ -15,7 +15,7 @@ Im Rahmen des DevOps Teams trage ich zur Wartung und Entwicklung einer Incident-
 
 ### Sortdesk
 
-Ich war ein Teil einer Software-Agentur, die sowohl eigene Produkte als auch maßgeschneiderte Lösungen für die Baubranche entwickelte. Mein Hauptbeitrag für das Unternehmen war:
+Ich war ein Teil einer Software-Agentur, die sowohl eigene Produkte als auch massgeschneiderte Lösungen für die Baubranche entwickelte. Mein Hauptbeitrag für das Unternehmen war:
 
 - **Implementierung der Kernfunktionen** und Einführung eines Online-Viewers für IFC-Dateien (öffentlich verfügbar unter [viewer.sortdesk.com](viewer.sortdesk.com)) mithilfe von React, ifc.js und MaterialUI 
 - Entwicklung und VVeröffentlichung der neuen Firmenwebsite
@@ -31,14 +31,14 @@ Zusammen mit Research & Development Team habe ich an einer Reihe von Produkten g
 
 ### Nokia
 
-Als Sommerpraktikant hatte ich die Möglichkeit, eine Vielzahl von Herausforderungen anzunehmen und zum ersten Mal mit kommerziellem Code zu arbeiten und zu erleben, wie Software in großem Maßstab läuft. Meine wichtigsten Beiträge waren:
+Als Sommerpraktikant hatte ich die Möglichkeit, eine Vielzahl von Herausforderungen anzunehmen und zum ersten Mal mit kommerziellem Code zu arbeiten und zu erleben, wie Software in grossem Massstab läuft. Meine wichtigsten Beiträge waren:
 
 - Entwicklung von Automatisierungsskripten (bash)
 - Umschreibung des UI eines alten Microservice von Angular zu React
 - Schreiben und Fehlerbehebung von Selenium e2e Testsuiten (python3)
 
 ### Freenlance-Aktivität
-Im Laufe meines Studiums habe ich auf Anfrage Webseiten implementiert. Zusammen mit einem Freund haben wir Anforderungen gesammelt, die Seiten entworfen, entwickelt und schließlich bereitgestellt. Eines dieser Projekte wurde von einer lokalen Zahnarztpraxis in Auftrag gegeben.
+Im Laufe meines Studiums habe ich auf Anfrage Webseiten implementiert. Zusammen mit einem Freund haben wir Anforderungen gesammelt, die Seiten entworfen, entwickelt und schliesslich bereitgestellt. Eines dieser Projekte wurde von einer lokalen Zahnarztpraxis in Auftrag gegeben.
 
 ![website](/website_1.png)
 
@@ -76,7 +76,7 @@ Informatik, Enginieur-Abschluss, Technische Universität Wroclaw
 Man sieht sowohl Gebiete (Frankreich) als auch Punkte (Paris), die den Ort der Handlung angeben.
 
 ![histmap](/histmap_2.png)
-Der Benutzer kann die Zeitachse verwenden (einschließlich Autoplay-Funktion) und Gebiete aus der UI ausschliessen
+Der Benutzer kann die Zeitachse verwenden (einschliesslich Autoplay-Funktion) und Gebiete aus der UI ausschliessen
 
 ![histmap](/histmap_3.png)
 Bei einem Doppelklick wird eine scrollbare Liste mit Publikationen aus dem angegebenen Umkreis angezeigt.
